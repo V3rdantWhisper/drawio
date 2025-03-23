@@ -1,9 +1,27 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram name="Page-1" id="s0oSef_KrBk_lVM4XTlb">
-    <mxGraphModel>
+    <mxGraphModel dx="689" dy="1867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RS7RVHEMjXCjwGCmBkNd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RS7RVHEMjXCjwGCmBkNd-1" target="RS7RVHEMjXCjwGCmBkNd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RS7RVHEMjXCjwGCmBkNd-1" value="&lt;b&gt;CTF 题目&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="15" y="200" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RS7RVHEMjXCjwGCmBkNd-2" value="漏洞成因诊断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RS7RVHEMjXCjwGCmBkNd-4" value="漏洞触发条件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="480" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RS7RVHEMjXCjwGCmBkNd-8" value="漏洞利用模式推理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="640" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RS7RVHEMjXCjwGCmBkNd-10" value="漏洞利用链生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="860" width="390" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
