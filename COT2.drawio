@@ -62,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XoWg0RiAyaY4ZKKg6dh2-36" value="漏洞成因诊断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="30" width="100" height="30" as="geometry" />
+          <mxGeometry x="130" y="50" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XoWg0RiAyaY4ZKKg6dh2-37" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="540" y="70" width="20" height="100" as="geometry" />
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XoWg0RiAyaY4ZKKg6dh2-45" value="漏洞利用模式推理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="215" y="350" width="120" height="30" as="geometry" />
+          <mxGeometry x="110" y="380" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XoWg0RiAyaY4ZKKg6dh2-46" value="内存读" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="282.5" y="230" width="50" height="30" as="geometry" />
@@ -160,8 +160,8 @@
         <mxCell id="XoWg0RiAyaY4ZKKg6dh2-83" value="..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="352.5" y="460" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XoWg0RiAyaY4ZKKg6dh2-84" value="漏洞触发条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="180" width="100" height="30" as="geometry" />
+        <mxCell id="XoWg0RiAyaY4ZKKg6dh2-84" value="漏洞触发条件判定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XoWg0RiAyaY4ZKKg6dh2-85" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -258,6 +258,9 @@
             <mxPoint x="367" y="620" as="sourcePoint" />
             <mxPoint x="366.83000000000004" y="640" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XoWg0RiAyaY4ZKKg6dh2-127" value="漏洞利用生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
