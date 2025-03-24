@@ -1,26 +1,131 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
-  <diagram name="Page-1" id="s0oSef_KrBk_lVM4XTlb">
-    <mxGraphModel dx="689" dy="1867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="CoT with Voting and Ranking" id="s0oSef_KrBk_lVM4XTlb">
+    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RS7RVHEMjXCjwGCmBkNd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RS7RVHEMjXCjwGCmBkNd-1" target="RS7RVHEMjXCjwGCmBkNd-2">
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-1" value="漏洞程序输入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-2" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-3" value="分析问题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-4" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-5" value="不正确的答案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-6" style="endArrow=block;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-2" target="T4s-R-4GXwKL9Dh3utqs-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RS7RVHEMjXCjwGCmBkNd-1" value="&lt;b&gt;CTF 题目&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="15" y="200" width="390" height="50" as="geometry" />
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-7" style="endArrow=block;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-3" target="T4s-R-4GXwKL9Dh3utqs-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RS7RVHEMjXCjwGCmBkNd-2" value="漏洞成因诊断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="10" y="280" width="400" height="80" as="geometry" />
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-8" style="endArrow=block;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-4" target="T4s-R-4GXwKL9Dh3utqs-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RS7RVHEMjXCjwGCmBkNd-4" value="漏洞触发条件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="10" y="480" width="390" height="130" as="geometry" />
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-9" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RS7RVHEMjXCjwGCmBkNd-8" value="漏洞利用模式推理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="20" y="640" width="390" height="130" as="geometry" />
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-10" value="问题分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2f0d9;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RS7RVHEMjXCjwGCmBkNd-10" value="漏洞利用链生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="10" y="860" width="390" height="130" as="geometry" />
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-11" value="堆漏洞" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-12" value="分步骤思维链" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-14" value="栈漏洞" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2f0d9;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-15" target="T4s-R-4GXwKL9Dh3utqs-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-15" value="分步骤思维链" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="670" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-17" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-18" value="分步骤思维链" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="670" y="300" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-19" style="endArrow=block;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-9" target="T4s-R-4GXwKL9Dh3utqs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-22" style="endArrow=block;strokeWidth=1;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-10" target="T4s-R-4GXwKL9Dh3utqs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-25" style="endArrow=block;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-11" target="T4s-R-4GXwKL9Dh3utqs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-26" style="endArrow=block;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-14" target="T4s-R-4GXwKL9Dh3utqs-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-27" style="endArrow=block;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-17" target="T4s-R-4GXwKL9Dh3utqs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-28" value="答案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="840" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-29" value="Final Answer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="980" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-30" value="不正确的答案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="840" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-33" style="endArrow=block;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-18" target="T4s-R-4GXwKL9Dh3utqs-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-34" style="endArrow=block;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-28" target="T4s-R-4GXwKL9Dh3utqs-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-35" value="用LLM替代传统漏洞分析中需要人实现的部分������" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-36" value="传统思维路径" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-37" value="COT引导" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="185" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-30" target="T4s-R-4GXwKL9Dh3utqs-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-10" target="T4s-R-4GXwKL9Dh3utqs-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="360" as="sourcePoint" />
+            <mxPoint x="270" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-10" target="T4s-R-4GXwKL9Dh3utqs-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="210" as="sourcePoint" />
+            <mxPoint x="580" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-48" value="思维链的选择" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-49" value="不正确的答案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="840" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="230" as="sourcePoint" />
+            <mxPoint x="890" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T4s-R-4GXwKL9Dh3utqs-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T4s-R-4GXwKL9Dh3utqs-12" target="T4s-R-4GXwKL9Dh3utqs-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="630" as="sourcePoint" />
+            <mxPoint x="1000" y="580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
