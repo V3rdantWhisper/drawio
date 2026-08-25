@@ -173,10 +173,10 @@
           <mxGeometry height="30" width="30" x="799" y="377.5" as="geometry" />
         </mxCell>
         <mxCell id="direct_lane" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;fontColor=#4477AA;fontStyle=1;" value="Direct sampling" vertex="1">
-          <mxGeometry height="30" width="92" x="543.5" y="130.5" as="geometry" />
+          <mxGeometry height="30" width="100" x="543.5" y="130.5" as="geometry" />
         </mxCell>
         <mxCell id="diff_lane" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;fontColor=#4477AA;fontStyle=1;" value="Differential sampling" vertex="1">
-          <mxGeometry height="30" width="81" x="554.5" y="357.5" as="geometry" />
+          <mxGeometry height="30" width="81" x="549.5" y="354.5" as="geometry" />
         </mxCell>
         <mxCell id="Fsj95eFstILzVsVnjSCA-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#BD7000;endArrow=block;endFill=1;fillColor=#f0a30a;">
           <mxGeometry relative="1" as="geometry">
