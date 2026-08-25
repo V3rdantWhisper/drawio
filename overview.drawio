@@ -1,11 +1,14 @@
 <mxfile host="app.diagrams.net" agent="UNITED artifact">
   <diagram id="nodemap" name="NodeMap">
-    <mxGraphModel dx="2330" dy="1248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="600" math="0" shadow="0">
+    <mxGraphModel dx="1607" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fsj95eFstILzVsVnjSCA-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 4 1 4;" value="" vertex="1">
+          <mxGeometry height="417.5" width="171" x="948" y="80" as="geometry" />
+        </mxCell>
         <mxCell id="Fsj95eFstILzVsVnjSCA-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 4 1 4;" value="" vertex="1">
-          <mxGeometry height="417.5" width="562.5" x="374" y="80" as="geometry" />
+          <mxGeometry height="417.5" width="576.5" x="360" y="80" as="geometry" />
         </mxCell>
         <mxCell id="grammar_icon_badge" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#4477AA;fillColor=#EAF2F8;strokeWidth=1.4;" value="" vertex="1">
           <mxGeometry height="92" width="92" x="374" y="213.5" as="geometry" />
@@ -214,15 +217,6 @@
             <mxPoint x="758" y="147.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fsj95eFstILzVsVnjSCA-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f0a30a;strokeColor=#BD7000;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="977.99" y="382.44000000000005" />
-            </Array>
-            <mxPoint x="978" y="289.44000000000005" as="sourcePoint" />
-            <mxPoint x="997.99" y="382.44000000000005" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Fsj95eFstILzVsVnjSCA-22" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f0a30a;strokeColor=#BD7000;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -232,9 +226,6 @@
             <mxPoint x="738" y="368" as="sourcePoint" />
             <mxPoint x="768" y="377.5" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Fsj95eFstILzVsVnjSCA-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 4 1 4;" value="" vertex="1">
-          <mxGeometry height="417.5" width="171" x="948" y="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
